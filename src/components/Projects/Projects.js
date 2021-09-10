@@ -6,7 +6,7 @@ import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <div>
-    Projects
+    Projectsss
   </div>
 );
 
