@@ -1,5 +1,5 @@
 import React from 'react';
-import {SiAdobexd, SiAdobephotoshop, SiAdobeillustrator, SiHtml5, SiCss3, SiPhp, SiReact } from 'react-icons/si';
+import {SiAdobexd, SiAdobephotoshop, SiAdobeillustrator, SiHtml5, SiCss3, SiPhp, SiReact, SiJavascript } from 'react-icons/si';
 import {DiReact, DiNodejsSmall} from 'react-icons/di';
 import {FiFigma, FiDatabase} from 'react-icons/fi';
 import {FaNodeJs} from 'react-icons/fa';
@@ -20,6 +20,8 @@ const Technologies = () =>  (
           <SiHtml5 size="3rem" />
           &nbsp;
           <SiCss3 size="3rem" />
+          &nbsp;
+          <SiJavascript size="3rem" />
           &nbsp;
           <SiPhp size="3rem" />
           &nbsp;
@@ -66,7 +68,7 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Connaissances en <br/>
-            logiciels de design
+            logiciels de design : suite Adobe, Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>

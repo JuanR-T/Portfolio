@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { BiGame } from 'react-icons/bi';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
@@ -10,8 +10,8 @@ const Header = () =>  (
         <Div1>
             <Link href="/">
 
-              <a style ={{ display : "flex", alignItems :"center", color: 'whitesmoke', marginBottom: '15px'}}>
-                  <DiCssdeck size="3rem"/> <Span>Portfolio</Span>
+              <a style ={{ display : "flex", alignItems :"center", color: 'whitesmoke', marginTop: '-20px'}}>
+                  <BiGame size="3rem"/> <Span>Chronoz</Span>
               </a>
 
             </Link>
