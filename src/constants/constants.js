@@ -5,7 +5,7 @@ export const projects = [
       image: '/images/Order.jpg',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'http://order.infinityfreeapp.com/projet_hetic/',
     id: 0,
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/Baniera.jpg',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://baniera-juan.netlify.app/',
     id: 1,
   },
   {
