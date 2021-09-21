@@ -9,7 +9,7 @@ const data = [
   { number: 1900, text: 'Github Followers', },
   { number: 5000, text: 'Github Stars', }
 ];
-
+// ²131241414
 const Acomplishments = () => (
   <Section>
     <SectionTitle>
