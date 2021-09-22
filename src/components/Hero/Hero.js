@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {ProfileImage} from '../../constants/constants';
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from '../Projects/ProjectsStyles';
+import {Img } from '../Projects/ProjectsStyles';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection, ProfileImageDiv } from './HeroStyles';
