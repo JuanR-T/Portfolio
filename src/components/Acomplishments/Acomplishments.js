@@ -1,28 +1,31 @@
 import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
-
+import { Box, Boxes, BoxLogo, BoxText } from './AcomplishmentsStyles';
+import { GrGamepad } from 'react-icons/gr';
+import { GiBowman, GiJapan, GiSushis} from 'react-icons/gi';
+import { RiAliensFill} from 'react-icons/ri';
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { logo :<GrGamepad size="5rem"/>, text: 'Jeux vidéos et E-sport'},
+  { logo :<GiBowman size="5rem" color="black"/>, text: 'Sports : Football, tir à l"arc', },
+  { logo :<GiSushis size="5rem" color="black"/>, text: 'Culture Japonaise', },
+  { logo :<RiAliensFill size="5rem" color="black"/>, text: 'Oeuvres de Science-fiction', }
 ];
 
 const Acomplishments = () => (
   <Section>
     <SectionTitle>
-      Personal achievements
+      Mes centres d'intérêt
     </SectionTitle>
     <Boxes>
       {data.map((card,index) => (
         <Box key ={index}>
-          <BoxNum>{card.number}+</BoxNum>
+          <BoxLogo>{card.logo}</BoxLogo>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
     </Boxes>
+
   </Section>
 );
 

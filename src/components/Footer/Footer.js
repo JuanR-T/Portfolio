@@ -6,7 +6,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper style={{alignItems:"center"}}> 
       <LinkList>
         <LinkColumn>
           <LinkTitle>Téléphone</LinkTitle>
@@ -20,7 +20,12 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-            Tout est relatif
+          "With infinite complacence people went to and fro over the earth about their 
+          affairs, serene in the assurance of their dominion over this small 
+          spinning fragment of solar driftwood which by chance or design man 
+          has inherited out of the dark mystery of Time and Space".
+          <br/>
+          Orson Welles
           </Slogan>
         </CompanyContainer>
         <SocialContainer>

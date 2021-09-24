@@ -1,8 +1,8 @@
-import Link from 'next/link';
 import React from 'react';
+
+import Link from 'next/link';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { BiGame } from 'react-icons/bi';
-
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  (
@@ -11,7 +11,7 @@ const Header = () =>  (
             <Link href="/">
 
               <a style ={{ display : "flex", alignItems :"center", color: 'whitesmoke', marginTop: '-20px'}}>
-                  <BiGame size="3rem"/> <Span>Chronoz</Span>
+                  <BiGame size="3rem"/> <Span>JuanRT</Span>
               </a>
 
             </Link>

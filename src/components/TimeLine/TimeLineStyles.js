@@ -17,7 +17,6 @@ export const CarouselContainer = styled.ul`
 
   margin-bottom: 80px;
 
-  //remove scrollbar
   scrollbar-width: none;  
    &::-webkit-scrollbar {
      display: none;
@@ -25,7 +24,6 @@ export const CarouselContainer = styled.ul`
 
   @media ${props => props.theme.breakpoints.sm} {
     overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
     touch-action: pan-x;
     justify-content: initial;

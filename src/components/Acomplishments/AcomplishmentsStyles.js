@@ -6,6 +6,8 @@ export const Boxes = styled.div`
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   margin: 24px 0 40px;
+  align-items:center;
+  justify-items:center;
 
   @media ${props => props.theme.breakpoints.md}{
     gap: 16px;
@@ -27,6 +29,15 @@ export const Box = styled.div`
   border-radius: 12px;
   height: 144px;
   padding: 24px;
+  position:relative;
+  transition: 0.3s ease;
+  opacity: ${({ isOpen }) => (isOpen ? '5' : '.60')};
+  transform: ${({ isOpen }) => (isOpen ? 'scaleY(-1)' : 'scaleY(1)')};
+
+  &:hover {
+    opacity: 1;
+  }
+
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
 
@@ -46,7 +57,7 @@ export const Box = styled.div`
     }
   }
 `
-export const BoxNum = styled.h5`
+export const BoxLogo = styled.h5`
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -72,6 +83,7 @@ export const BoxText = styled.p`
   line-height: 24px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
+  text-align:center;
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;
