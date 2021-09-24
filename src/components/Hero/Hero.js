@@ -11,8 +11,10 @@ const Hero =  () => (
   <Section>
     <LeftSection>
       <SectionTitle>
-        Bienvenue sur<br />
-        mon portfolio personnel
+        Juan Restrepo Torres
+        <br /><br />
+        Etudiant en développement web
+        <br />
       </SectionTitle>
       {ProfileImage.map(({profileimage}) =>
       <ProfileImageDiv>      
@@ -20,10 +22,13 @@ const Hero =  () => (
       </ProfileImageDiv>
       )}
       <SectionText>
-        Dans le marché du développement de sites web, les crimes de code sont considérés comme particulièrement monstrueux. 
-        À New York, les inspecteurs qui enquêtent sur ces crimes sont membres d'une unité d'élite appelée Chronoz. Je m'appelle Juan Restrepo Torres, et voici leurs histoires. *Toudoum*
         <br />
-        [New York Unité Spéciale]
+        Je recherche une ALTERNANCE en développement web
+        sur un rythme : 3 semaines en entreprise et 1 semaine en formation, à partir de Novembre 2021 (modulable)
+        <br /><br />
+        Soyez le bienvenue sur mon portfolio.
+        <br />
+        ECOLE HETIC
       </SectionText>
       <Button onClick={() => window.location = 'https://www.hetic.net/'}>En savoir plus</Button>
     </LeftSection>

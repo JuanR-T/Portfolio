@@ -32,8 +32,6 @@ const Timeline = () => {
     }
   }
 
-  // // snap back to beginning of scroll when window is resized
-  // // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
@@ -43,10 +41,34 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="apropos">
+    <Section id="apropos" style={{display:"flex",alignItems:"center"}}>
       <SectionTitle>A propos</SectionTitle>
-      <SectionText>
-        TESTTESTTESTTESTTESTTESTTEST
+      <SectionText style={{textAlign:"justify"}}>
+      Diplômé d'une 3ème année de Prépa Mastère Digital à l’école Hetic située à Montreuil, 
+      je rentre cette année en Mastère CTO & Tech Lead. 
+      <br/><br/>
+      Mon objectif à terme est de devenir un expert en développement, capable de participer
+      à toutes les étapes du cycle de vie d’un projet. La formation que j’ai 
+      effectué à Hetic m’as permis de m’améliorer en développement assez 
+      rapidement et d’acquérir des compétences dans diverses disciplines.
+      Les enseignements étaient construits autour de projets, dans le but de nous immerger dans un contexte professionnel. Ces derniers sont divers et abordent plusieurs aspects de la création d’un produit digital : l’élaboration de sites web/applications à l’aide de divers langages de programmation (PHP, JS, React, HTML, CSS, Node…) et leurs interactions avec une base de donnée, notamment à l'aide de MySql ; ou encore la création d'UI sur AdobeXD ou Figma tout en prenant en compte l'UX. Ainsi que des projets faisant appel à l’ensemble de ces compétences afin de couvrir l’ensemble de la chaîne de production d’un produit web.
+      <br/><br/>
+      Certains de ces projets ont été réalisés en groupe : l’accent est 
+      mis  sur  la collaboration au sein de ma formation, mais aussi dans 
+      ma promotion. C’est pourquoi je suis habitué au travail collaboratif, 
+      qui me plaît beaucoup. De plus, cela m'encourage à nourrir ma curiosité
+      et ma perspicacité, des qualités indispensables à un développeur web à mon sens.
+      <br/><br/>
+      Pour finir, mon rythme d’alternance est de 3 semaines en entreprise
+      / 1 semaine en formation. Je suis disponible à partir de Novembre 2021,
+      bien que cette date soit modulable en fonction de vos besoins. 
+      Vous pouvez également trouver la lettre de recommandation de la dirigeante de YesWeLab 
+      (où j’ai effectué mon stage), sur mon profil <a href="https://www.linkedin.com/in/juan-r-3699b51aa/">LinkedIn</a>.
+      <br/><br/>
+      En espérant pouvoir en parler avec vous très bientôt,
+      <br/>
+      Restrepo Torres Juan.
+
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

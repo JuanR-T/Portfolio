@@ -38,11 +38,11 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2015, text: 'Baccalauréat ES, spécialité économie approfondie: Mention Bien', },
+  { year: 2016, text: 'Poste d"équipier polyvalent au McDonald"s et Obtention Licence 1 Economie', },
+  { year: 2020, text: 'Obtention Bac +3 : Licence Economie à Paris 1 Panthéon Sorbonne',},
+  { year: 2021, text: 'Obtention Bac +3 : Prépa Mastère Digital (PMD) à Hetic', },
+  { year: 2022, text: 'Je travaille dans votre entreprise !', },
 ];
 
 export const ProfileImage =[
