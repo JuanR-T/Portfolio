@@ -143,6 +143,7 @@ export const LinkColumn = styled.div`
 	flex-direction: column;
 	max-width: 220px;
 	width: 100%;
+	align-items: center;
 `
 export const LinkTitle = styled.h4`
 	font-style: normal;

@@ -6,18 +6,23 @@ import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section nopadding id="projets">
-    <SectionDivider />
-    <SectionTitle main> Mes Projets</SectionTitle>
+    <Section style={{alignItems: "center"}}>
+      <SectionDivider />
+      <SectionTitle main> Mes Projets</SectionTitle>
+    </Section>
     <GridContainer>
       {projects.map(({id, image, title, description, tags, source, visit}) => 
         <BlogCard key={id}>
-          <Img src={image} />
-          <TitleContent>
-            <HeaderThree title>{title}</HeaderThree>
-            <Hr />
-          </TitleContent>
-          <CardInfo>{description}</CardInfo>
           <div>
+            <Img src={image} style={{alignContent:"flex-start", display:"flex"}}/>
+            <br/>
+            <TitleContent>
+              <HeaderThree title>{title}</HeaderThree>
+              <Hr />
+            </TitleContent>
+            <CardInfo>{description}</CardInfo>
+          </div>
+          <div >
             <br/>
             <TitleContent>Technologies utilisées :</TitleContent>
             <TagList>
@@ -25,11 +30,11 @@ const Projects = () => (
                 <Tag key ={i}>{tag}</Tag>
               ))}
             </TagList>
+            <UtilityList>
+              <ExternalLinks href={visit}>Code</ExternalLinks>
+              <ExternalLinks href={visit}>Live</ExternalLinks>
+            </UtilityList>
           </div>
-          <UtilityList>
-            <ExternalLinks href={visit}>Code</ExternalLinks>
-            <ExternalLinks href={visit}>Live</ExternalLinks>
-          </UtilityList>
         </BlogCard>
 
 

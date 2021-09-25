@@ -14,9 +14,12 @@ const data = [
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>
-      Mes centres d'intérêt
-    </SectionTitle>
+    <Section style={{alignItems: "center"}}>
+      <SectionDivider/>
+      <SectionTitle>
+        Mes centres d'intérêt
+      </SectionTitle>
+    </Section>
     <Boxes>
       {data.map((card,index) => (
         <Box key ={index}>

@@ -22,6 +22,7 @@ export const Section = styled.section`
 
     width: calc(100vw - 32px);
     flex-direction: column;
+    justify-items:center;
   }
 `
 
@@ -74,7 +75,7 @@ export const SectionText = styled.p`
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 16px;
     line-height: 24px;
-    padding-bottom: 16px;
+    padding: 0px 5px 16px 5px;
   }
 `
 

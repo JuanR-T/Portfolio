@@ -7,8 +7,9 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
- <Section>
-   <SectionDivider />
+ <Section style={{alignItems:"center"}}>
+   
+   <SectionDivider/>
    <br/>
     <SectionTitle id="competences">Langages de programmation et logiciels</SectionTitle>
     <SectionText>
