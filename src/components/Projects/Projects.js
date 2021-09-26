@@ -32,14 +32,11 @@ const Projects = () => (
             </TagList>
             <UtilityList>
               <ExternalLinks href={source}>Code</ExternalLinks>
-              <ExternalLinks href={pdf} download>PDF</ExternalLinks>
+              <ExternalLinks href={pdf} download >PDF</ExternalLinks>
               <ExternalLinks href={visit}>Live</ExternalLinks>
             </UtilityList>
           </div>
         </BlogCard>
-
-
-
       )}
     </GridContainer>
   </Section>
