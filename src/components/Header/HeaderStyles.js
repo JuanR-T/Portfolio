@@ -63,6 +63,7 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    font-size:1rem;
   }
 `;
 
@@ -111,9 +112,6 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
     width: 15px;
   }
 `;
-
-
-// Social Icons 
 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;

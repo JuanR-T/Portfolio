@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img} from './ProjectsStyles';
+import { Section, SectionDivider, SectionTitle, DownloadLink } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
@@ -11,7 +11,7 @@ const Projects = () => (
       <SectionTitle main> Mes Projets</SectionTitle>
     </Section>
     <GridContainer>
-      {projects.map(({id, image, title, description, tags, source, visit}) => 
+      {projects.map(({id, image, title, description, tags, source, visit, pdf}) => 
         <BlogCard key={id}>
           <div>
             <Img src={image} style={{alignContent:"flex-start", display:"flex"}}/>
@@ -31,7 +31,8 @@ const Projects = () => (
               ))}
             </TagList>
             <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
+              <ExternalLinks href={source}>Code</ExternalLinks>
+              <ExternalLinks href={pdf} download>PDF</ExternalLinks>
               <ExternalLinks href={visit}>Live</ExternalLinks>
             </UtilityList>
           </div>

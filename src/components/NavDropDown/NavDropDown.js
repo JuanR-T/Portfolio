@@ -1,13 +1,12 @@
 import styled from 'styled-components'
 
 export const DropDownContainer = styled.div`
-  position: absolute;
   display: flex;
   flex-direction: column;
   right: -25%;
   top: 40px;
   width: 280px;
-  background-color: #fff;
+  background-color: black;
   border-radius: 8px;
   z-index: 100;
   padding: 4px 0;

@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 
 export const Img = styled.img`
@@ -95,6 +96,7 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
+
 color:#d4c0c0;
 font-size: 1.6rem;
 padding:1rem 1.5rem;

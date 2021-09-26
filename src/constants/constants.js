@@ -3,18 +3,20 @@ export const projects = [
     title: 'ORĐER',
     description: "Dans ce projet réalisé en cours de php, il s'agissait de créer un site de E-commerce avec une page d'inscription et de connexion.",
       image: '/images/Order.jpg',
-      tags: ['PHP', 'SQL', 'HTML', 'CSS'],
+      tags: ['PHP', 'MYSQL', 'HTML', 'CSS'],
     source: 'https://google.com',
     visit: 'http://order.infinityfreeapp.com/projet_hetic/',
+    pdf:'/CV_Restrepo_Torres_Juan.pdf',
     id: 0,
   },
   {
     title: 'Portfolio Theme Wordpress',
     description: "Projet réalisé en cours de Wordpress, il fallait réaliser un thème Wordpress pour un portfolio, permettant à l'utilisateur de gérer facilement l'ajout de ses projets via le back-office de Wordpress. Il y avait des fonctionnalités exigées : l'affichage sur la page d'accueil des trois derniers projets publiés par l'utilisateur; une page regroupant l'intégralité des projets; un formulaire de contact et un blog personnalisé.",
       image: '/images/Contact_us.jpg',
-      tags: ['HTML', 'CSS'],
+      tags: ['PHP', 'WORDPRESS','MYSQL','HTML','CSS'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'http://portfoliojuanrestrepotorres.infinityfreeapp.com/',
+    pdf:'#',
     id: 1,
   },
   {
@@ -24,6 +26,7 @@ export const projects = [
     tags: ['WORDPRESS','HTML', 'CSS','PHP','SEO'],
     source: 'https://google.com',
     visit: 'http://tylurrude-trottinette.infinityfreeapp.com/',
+    pdf:'#',
     id: 2,
   },
   {
@@ -33,6 +36,7 @@ export const projects = [
       tags: ['HTML', 'CSS'],
     source: 'https://google.com',
     visit: 'https://google.com',
+    pdf:'#',
     id: 3,
   },
   {
@@ -42,6 +46,7 @@ export const projects = [
     tags: ['HTML', 'CSS', 'JAVASCRIPT','API'],
     source: 'https://google.com',
     visit: 'https://google.com',
+    pdf:'#',
     id: 4,
   },
   {
@@ -51,6 +56,7 @@ export const projects = [
     tags: ['HTML', 'CSS'],
     source: 'https://google.com',
     visit: 'https://baniera-juan.netlify.app/',
+    pdf:'#',
     id: 5,
   },
   {
@@ -60,6 +66,7 @@ export const projects = [
     tags: ['ADOBE XD', 'ADOBE PHOTOSHOP',],
     source: 'https://google.com',
     visit: 'https://google.com',
+    pdf:'#',
     id: 6,
   },
   {
@@ -69,6 +76,7 @@ export const projects = [
     tags: ['SHEETS',],
     source: 'https://google.com',
     visit: 'https://google.com',
+    pdf:'#',
     id: 7,
   },
   {
@@ -78,6 +86,7 @@ export const projects = [
     tags: ['ADOBE ILLUSTRATOR', 'ADOBE PHOTOSHOP',],
     source: 'https://google.com',
     visit: 'https://google.com',
+    pdf:'#',
     id: 8,
   },
   {
@@ -87,6 +96,7 @@ export const projects = [
     tags: ['SHEETS', 'PINTEREST','DRIBBBLE','UNSPLASH'],
     source: 'https://google.com',
     visit: 'https://google.com',
+    pdf:'#',
     id: 9,
   },
   

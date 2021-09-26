@@ -2,7 +2,7 @@ import React from 'react';
 
 import {ProfileImage} from '../../constants/constants';
 import {Img } from '../Projects/ProjectsStyles';
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle, DownloadLink } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection, ProfileImageDiv } from './HeroStyles';
 
@@ -30,7 +30,9 @@ const Hero =  () => (
         <br />
         ECOLE HETIC
       </SectionText>
-      <Button onClick={() => window.location = 'https://www.hetic.net/'}>En savoir plus</Button>
+      <DownloadLink href="/CV_Restrepo_Torres_Juan.pdf" download> 
+        Télécharger mon CV
+      </DownloadLink>
     </LeftSection>
   </Section>
 );

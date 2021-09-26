@@ -13,8 +13,10 @@ export const Section = styled.section`
   z-index:10;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    padding: 24px 48px 0;
+    padding: ${(props) => props.nopadding ? "0" : "0px 0px 0" } ;
+    width: calc(100vw - 32px);
     flex-direction: column;
+    justify-items:center;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -281,4 +283,15 @@ export const LinkIconImg = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     height: ${({ large }) => large ? '32px' : '16px'};
   }
+`
+export const DownloadLink = styled.a`
+   
+  background-color: #7D70E7;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  color: white;
+  font-size: 2rem;
+  padding: 5px 15px;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
 `
