@@ -6,12 +6,12 @@ import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section nopadding id="projets">
-    <Section style={{alignItems: "center"}}>
+    <Section style={{alignItems: "center", padding:"15px 0px 0px 0px"}}>
       <SectionDivider />
       <SectionTitle main> Mes Projets</SectionTitle>
     </Section>
     <GridContainer>
-      {projects.map(({id, image, title, description, tags, source, visit, pdf}) => 
+      {projects.map(({id, image, title, description, tags, source, visit, pdf, ai}) => 
         <BlogCard key={id}>
           <div>
             <Img src={image} style={{alignContent:"flex-start", display:"flex"}}/>
@@ -31,9 +31,10 @@ const Projects = () => (
               ))}
             </TagList>
             <UtilityList>
-              {source.length > 5 ? <ExternalLinks href={source}>Source</ExternalLinks> : null}
-              {pdf.length > 5 ? <ExternalLinks href={pdf} download >PDF</ExternalLinks> : null}
-              <ExternalLinks href={visit}>Live</ExternalLinks>
+              {source.length > 5 ? <DownloadLink href={source} target="blank">Code</DownloadLink> : null}
+              {pdf.length > 5 ? <DownloadLink href={pdf} download>Pdf</DownloadLink> : null}
+              {ai.length > 5 ? <DownloadLink href={ai} download>.Ai.Xd</DownloadLink> : null}
+              {visit.length > 5 ? <DownloadLink href={visit} target="blank">Live</DownloadLink> : null}
             </UtilityList>
           </div>
         </BlogCard>

@@ -21,7 +21,6 @@ export const Section = styled.section`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => props.nopadding ? "0" : "0px 0px 0" } ;
-
     width: calc(100vw - 32px);
     flex-direction: column;
     justify-items:center;
@@ -290,8 +289,11 @@ export const DownloadLink = styled.a`
   border: 1px solid #FFFFFF;
   border-radius: 20px;
   color: white;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 5px 15px;
   text-decoration: none;
-  transition: all .2s ease-in-out;
+  transition: 0.5s;
+&:hover{
+  background: #192859;
+}
 `

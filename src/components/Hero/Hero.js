@@ -24,11 +24,12 @@ const Hero =  () => (
       <SectionText>
         <br />
         Je recherche une ALTERNANCE en développement web
-        sur un rythme : 3 semaines en entreprise et 1 semaine en formation, à partir de Novembre 2021 (modulable)
-        <br /><br />
-        Soyez le bienvenue sur mon portfolio.
+        sur un rythme : 3 semaines en entreprise et 1 semaine en formation, à partir de Novembre 2021 (modulable).
         <br />
-        ECOLE HETIC
+        <a href="https://www.hetic.net/formations/mastere-cto-tech-lead" target="blank" style={{color:"white", textDecoration:"underline"}}>Mastère CTO & Tech Lead à HETIC</a>
+        <br /><br />
+        Bienvenu(e) sur mon portfolio.
+        <br/>
       </SectionText>
       <DownloadLink href="/CV_Restrepo_Torres_Juan.pdf" download> 
         Télécharger mon CV

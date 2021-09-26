@@ -32,6 +32,9 @@ export const BlogCard = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  &:hover{
+    box-shadow: 0 10px 50px 0 rgba(80, 78, 78, 0.8);
+  }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;

@@ -42,11 +42,11 @@ const Header = () =>  (
 
         <Div3>
 
-            <SocialIcons href="https://github.com/JuanR-T">
+            <SocialIcons href="https://github.com/JuanR-T" target="blank">
               <AiFillGithub size="3rem"/>
             </SocialIcons>
 
-            <SocialIcons href="https://www.linkedin.com/in/juan-r-3699b51aa/">
+            <SocialIcons href="https://www.linkedin.com/in/juan-r-3699b51aa/" target="blank">
               <AiFillLinkedin size="3rem"/>
             </SocialIcons>
 
