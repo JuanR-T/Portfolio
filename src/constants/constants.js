@@ -1,22 +1,13 @@
 export const projects = [
-  {
-    title: 'test',
-    description: "test",
-      image: 'test',
-      tags: ['PHP', 'MYSQL', 'HTML', 'CSS'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    pdf:'#',
-    id: 0,
-  },
+  
   {
     title: 'ORĐER',
     description: "Dans ce projet réalisé en cours de php, il s'agissait de créer un site de E-commerce avec une page d'inscription et de connexion.",
       image: '/images/Order.jpg',
       tags: ['PHP', 'MYSQL', 'HTML', 'CSS'],
-    source: 'https://google.com',
+    source: '#',
     visit: 'http://order.infinityfreeapp.com/projet_hetic/',
-    pdf:'/CV_Restrepo_Torres_Juan.pdf',
+    pdf:'#',
     id: 0,
   },
   {

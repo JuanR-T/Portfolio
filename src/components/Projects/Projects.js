@@ -31,8 +31,8 @@ const Projects = () => (
               ))}
             </TagList>
             <UtilityList>
-              <ExternalLinks href={source}>Code</ExternalLinks>
-              <ExternalLinks href={pdf} download >PDF</ExternalLinks>
+              {source.length > 5 ? <ExternalLinks href={source}>Source</ExternalLinks> : null}
+              {pdf.length > 5 ? <ExternalLinks href={pdf} download >PDF</ExternalLinks> : null}
               <ExternalLinks href={visit}>Live</ExternalLinks>
             </UtilityList>
           </div>
